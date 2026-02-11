@@ -373,6 +373,8 @@ skip-if = [
 
 ["browser_net_post-data-json-payloads.js"]
 
+["browser_net_post-data-no-response.js"]
+
 ["browser_net_post-data-raw-payloads-with-upload-stream-headers.js"]
 
 ["browser_net_post-data-raw-payloads.js"]

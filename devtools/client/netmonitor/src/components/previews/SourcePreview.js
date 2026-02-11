@@ -63,6 +63,9 @@ class SourcePreview extends Component {
   }
 
   getSourceEditorModeForMimetype(mimeType) {
+    if (!mimeType) {
+      return null;
+    }
     const lang = mimeType.split("/")[1];
     return Editor.modes[lang];
   }

@@ -333,7 +333,7 @@ class ResponsePanel extends Component {
       component = SourcePreview;
       componentProps = {
         text,
-        mimeType: json ? "application/json" : mimeType.replace(/;.+/, ""),
+        mimeType: json ? "application/json" : mimeType?.replace(/;.+/, ""),
         targetSearchResult,
         url,
       };
